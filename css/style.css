@@ -11,8 +11,9 @@ body{
 }
 header{
 	background-color: #fcdb00;
+	opacity: .9;
 	color: #010101;
-	padding: 15px 0;
+	padding: 10px 0;
 }
 .logo{
 
@@ -109,9 +110,6 @@ header{
 .s_content p{
 	color: #898989;
 }
-.custom-content:hover{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 /*feature end*/
 /*footer start*/
 .contact{
@@ -137,10 +135,26 @@ header{
 	width: 45px;
 	margin-right: 25px !important;
 	border-radius: 5px;
+	transition: .4s;
 }
 .s_links ul li a{
 	color: #010101;
 }
+.f-hover:hover{
+	background-color: #228DEE;
+}
+.t-hover:hover{
+	background-color: #1DA1F2;
+}
+.g-hover:hover{
+	background-color: #EA4335;
+}
+.p-hover:hover{
+	background-color: #AE2C2E;
+}
+/*.s_links ul li a:hover{
+	color: #0D8CF0;
+}*/
 /*3rd row*/
 .f-link{
 	margin-top: 80px;
@@ -150,5 +164,8 @@ header{
 }
 .f-link ul li a{
 	color: #fff;
+}
+.f-link ul li a:hover{
+	color: #fcdb00;
 }
 /*footer end*/

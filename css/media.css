@@ -1,6 +1,9 @@
  /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 /*header start*/
+header{
+	padding: 0px 0;
+}
 .menu ul li a{
     text-align: right;
     padding: 0 !important;
@@ -21,6 +24,10 @@
 }
 .slider-next p{
 	font-size: 15px;
+}
+.icon{
+	font-size: 30px; 
+	text-align: center;
 }
 /*slider end*/
 /*features start*/
@@ -44,6 +51,7 @@
 	padding: 30px 0 20px 0;
 }
 .btn-custom{
+	width: 100%;
 	margin-top: 4px;
 }
 .s_links{
@@ -69,6 +77,9 @@
  /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
 /*header start*/
+header{
+	padding: 3px 0;
+}
 .menu ul li a{
     text-align: right;
     padding: 0 !important;
@@ -117,6 +128,9 @@
  /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
 /*header start*/
+header{
+	padding: 5px 0;
+}
 .menu ul li a{
     text-align: right;
     padding: 0 !important;
@@ -160,6 +174,11 @@
  /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
 /*slider start*/
+header{
+	background-color: #fcdb00;
+	color: #010101;
+	padding: 8px 0;
+}
 .slider-next h1{
 	font-size: 28px;
 }
